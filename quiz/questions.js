@@ -1,5 +1,5 @@
 
-[
+const quiz = [
 { 
     "id" : 1,
     "question" : "De combien de joueurs se compose une équipe de football ?",
@@ -15,25 +15,25 @@
 { 
     "id" : 3,
     "question" : "Combien de minutes dure une mi-temps dans un match de foot ?",
-    "answers" : [ "40 minutes","35 minutes","45 minutes"],
+    "answers" : [ "40 minutes","35 minutes","45 minutes", "25 minutes"],
     "correct" : 2
 },
 { 
     "id" : 4,
     "question" : "Quel club a remporté la Ligue des champions de 2005-2006 ?",
-    "answers" : ["FC Barcelone","Milan AC","Bayern de Munich"],
+    "answers" : ["FC Barcelone","Milan AC","Bayern de Munich", "Juventus"],
     "correct" : 0
 },
 { 
     "id" : 5,
     "question" : "Quel numéro portait Zinedine Zidane dans l'équipe de France ?",
-    "answers" : ["Le 10", "Le 14","Le 3"],
+    "answers" : ["Le 10", "Le 5","Le 3", "Le 8", "Le 6"],
     "correct" : 0
 },  
 { 
     "id" : 6,
     "question" : "Quelle équipe a été cinq fois championne du monde (jusqu'en 2006) ?",
-    "answers" : ["La France","Le Brésil", "L'Argentine"],
+    "answers" : ["La France","Le Brésil", "L'Argentine", "L'Allemagne", "La Hollande"],
     "correct" :  1
 },
 { 
@@ -60,4 +60,4 @@
     "answers" : ["Le groupe A", "Le groupe E", "Le groupe H"],
     "correct" : 1
 }
-]
+];
